@@ -1,0 +1,9 @@
+.state-example {
+  display: flex;
+  flex-direction: column;
+}
+
+.state-example .buttons {
+  display: flex;
+  justify-content: space-between;
+}

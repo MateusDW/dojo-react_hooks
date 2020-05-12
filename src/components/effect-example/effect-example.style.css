@@ -1,0 +1,38 @@
+.effect-example {
+  display: flex;
+  flex-direction: column;
+}
+
+.effect-example .dogs {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.effect-example .card {
+  width: 200px;
+  height: 200px;
+  margin: 0 5px;
+  padding: 5px;
+  background-color: black;
+}
+
+.effect-example .card:first-child {
+  margin-left: 0;
+}
+
+.effect-example .card:last-child {
+  margin-left: 0;
+}
+
+.effect-example .card img {
+  width: 100%;
+  height: 100%;
+}
+
+.effect-example .buttons {
+  margin-top: 10px;
+}
+
+.effect-example .buttons button:first-child {
+  margin-right: 10px;
+}
